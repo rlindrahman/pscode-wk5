@@ -1,0 +1,71 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+num1 ends in 2, 4, 6, 8, or 0= even
+num1 ends in 1,3, 5, 7, 9= odd
+For any number, if it can be divided by two withouut any remainders, then this is an even number. If it cannot be evenly divided by two without remainders, it is an odd number. 
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+a. List 5 numbers 
+num1, num2, num3, num4, num5
+
+b. START 
+//Initialize a list of 5 numbers
+DECLARE list [5]
+//Variable to store the sum of the numbers
+SET sum TO 0
+//Prompt the useer to input the 5 numbers
+FOR i FROM 0 to 4 DO
+PRINT "Enter number", i+1
+INPUT lists [i]
+//ADd the number to the sum
+SET sum TO sum = list[i]
+END FOR
+//Calculate the average
+SET average TO sum / 5
+//Output the average
+PRINT "The average is", average
+END
+
+c. Initialize a list of 5 numbers
+num1, num2, num3, num4, num5
+For i from 0 to 4
+Print "Enter number," i+1
+Input list [i]
+
+//Assume the first number is bothe the lowest and highest 
+Set lowest TO list [0]
+Set highest TO list [0]
+
+//Iterate through the list to find the actual lowest and highest numbers
+For i from 1 to 4 DO
+If list [i] <lowest -THEN
+set lowest to list[i
+END IF
+If list{i} >highest
+THEN SET hightest TO list[i]
+END IF
+END For
+//Output the lowest and highest numbers 
+PRINT "The lowest number is," lowest
+PRINT "The highest number is," highest
+END
+]-- END --
